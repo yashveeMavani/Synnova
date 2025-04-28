@@ -1,6 +1,6 @@
 # My React Frontend
 
-This project is a React application that serves as the frontend for the website [synnova.in](https://synnova.in/). It is built using TypeScript and follows modern React practices.
+This project is a React application that serves as the frontend for the website  It is built using JavaScript and follows modern React practices.
 
 ## Project Structure
 
