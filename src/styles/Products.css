@@ -311,8 +311,8 @@
     margin: 30px auto;
     height: 400px; /* Adjust height to match header height */
     overflow: hidden;
-    /* border-radius: 10px; */
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     
    
 
