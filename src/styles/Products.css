@@ -89,6 +89,7 @@
     .products-container {
         flex-direction: column;
         gap: 40px;
+        margin-left: 6px;
     }
 
     .products-side-note {
@@ -164,6 +165,13 @@
         flex: 1 1 calc(50% - 20px); /* 2 items per row on smaller screens */
         max-width: calc(50% - 20px);
     }
+    .products-industries{
+        
+        padding: 0;
+        background-color: transparent;
+        box-shadow:none /* Remove background color */
+        /* Remove shadow */
+    }
 }
 
 @media (max-width: 480px) {
@@ -233,6 +241,12 @@
     .infrastructure-right {
         border-left: none;
         padding-left: 0;
+    }
+    .infrastructure-section{
+        padding: 0;
+        padding-left: 5px;
+        background-color: transparent; /* Remove background color */
+        box-shadow: none;
     }
 }
 
@@ -307,7 +321,7 @@
 /* Photo Slider Section */
 .photo-slider {
     width: 100%;
-    max-width: 1140px; /* Align with header width */
+    max-width: 1180px; /* Align with header width */
     margin: 30px auto;
     height: 400px; /* Adjust height to match header height */
     overflow: hidden;
@@ -366,7 +380,7 @@
 
 .photo-item img {
     width: 100%;
-    max-width: 250px; /* Limit the width of each image */
+    max-width: 300px; /* Limit the width of each image */
     height: auto;
     border-radius: 10px;
     border: 2px solid #4F9788 /* Optional: Add rounded corners */
@@ -378,4 +392,35 @@
     font-weight: 500;
     color: #555;
     margin-bottom: 0;
-}
+} 
+
+
+@media (max-width: 768px) {
+    .infrastructure-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+  
+    .infrastructure-item {
+      width: 90%;         /* Responsive full-width with padding */
+      max-width: 320px;   /* Optional: keep a nice max width */
+      min-height: 60px;   /* Make all items same height */
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 16px 24px;
+      border-radius: 12px;
+      background-color: #4ca597;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  
+    .infrastructure-item span.number {
+      margin-right: 12px;
+      font-size: 1.2rem;
+    }
+  }
+  
