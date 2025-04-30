@@ -380,7 +380,7 @@
 
 .photo-item img {
     width: 100%;
-    max-width: 300px; /* Limit the width of each image */
+    max-width: 300 px; /* Limit the width of each image */
     height: auto;
     border-radius: 10px;
     border: 2px solid #4F9788 /* Optional: Add rounded corners */
